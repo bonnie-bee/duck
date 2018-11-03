@@ -14,6 +14,7 @@ html{
     border-radius: 80%;
     top: 10%;
     left: 30%;
+    z-index: 3;
 }
 
 .straightOnBody {
@@ -38,6 +39,7 @@ html{
     right: 90%;
     border-right: thin rgb(223, 189, 0) solid;
     transform: rotate(10deg);
+    z-index: 3;
 }
 
 .rightWing {
@@ -51,6 +53,7 @@ html{
     left: 90%;
     border-left: thin rgb(223, 189, 0) solid;
     transform: rotate(-10deg);
+    z-index: 3;
 }
 
 .leftEye {
@@ -157,10 +160,21 @@ html{
     }
 
     .water{
-        top: 60%;
+        top: 57.3%;
         left: -10%;
         width: 110%;
     }
 
+    .underwaterButt{
+        position: absolute;
+        background: #0d7c4e;
+        z-index: 2;
+        width: 300px;
+        height: 70px;
+        border-radius: 80%;
+        border-top: gold 150px solid;
+        top: 31%;
+        left: 12%;
+    }
     
 }
