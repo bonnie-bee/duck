@@ -1,6 +1,9 @@
 /* :root {
     --duck-body: gold;
 } */
+html{
+    overflow: hidden;
+}
 
 .straightOnHead {
     position: absolute;
@@ -135,15 +138,17 @@
 .water {
     position: absolute;
     background: teal;
-    width: 100%;
+    width: 110%;
     height: 50%;
     top: 50%;
+    left: -5%;
 }
 
 @media (max-width: 500px){
 
     .straightOnBody {
         left: 12%;
+        top: 31%;
     }
 
     .straightOnHead{
@@ -152,12 +157,10 @@
     }
 
     .water{
-        top: 105%;
+        top: 60%;
         left: -10%;
         width: 110%;
     }
 
-    html{
-        overflow: hidden;
-    }
+    
 }
