@@ -143,14 +143,21 @@
 @media (max-width: 500px){
 
     .straightOnBody {
-        left: 18%;
+        left: 12%;
     }
 
     .straightOnHead{
         top: 7%;
+        left: 23%;
     }
 
     .water{
-        top: 60%;
+        top: 50%;
+        left: -10%;
+        width: 110%;
+    }
+
+    html{
+        overflow: hidden;
     }
 }
