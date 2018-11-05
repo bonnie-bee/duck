@@ -140,7 +140,7 @@ html{
 
 .water {
     position: absolute;
-    background: teal;
+    background: rgba(48, 153, 146, 0.9);
     width: 110%;
     height: 50%;
     top: 50%;
@@ -165,7 +165,7 @@ html{
         width: 110%;
     }
 
-    .underwaterButt{
+    /* .underwaterButt{
         position: absolute;
         background: #0d7c4e;
         z-index: 2;
@@ -175,6 +175,6 @@ html{
         border-top: gold 150px solid;
         top: 31%;
         left: 12%;
-    }
+    } */
     
 }
