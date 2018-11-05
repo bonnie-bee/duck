@@ -80,6 +80,7 @@ html{
     -webkit-animation: wave4 5s infinite;
     -moz-animation:    wave4 5s infinite;
     animation-delay: .5s;
+    animation-fill-mode: front;
 }
 
 .straightOnHead {
@@ -235,6 +236,7 @@ html{
         -webkit-animation: wave 5s infinite;
         -moz-animation: wave 5s infinite;
         animation-delay: .5s;
+        animation-fill-mode: front;
     }
 
     .straightOnBody {
@@ -250,7 +252,7 @@ html{
     .water{
         top: 58%;
         left: -10%;
-        width: 113%;
+        width: 118%;
         animation: wave2 5s infinite;
         -webkit-animation: wave2 5s infinite;
         -moz-animation: wave2 5s infinite;
