@@ -232,11 +232,10 @@ html{
     .straightOnDuck{
         height: 600px;
         width: 450px;
-        animation: wave 5s infinite;
-        -webkit-animation: wave 5s infinite;
-        -moz-animation: wave 5s infinite;
+        animation: wave 5s infinite forwards;
+        -webkit-animation: wave 5s infinite forwards;
+        -moz-animation: wave 5s infinite forwards;
         animation-delay: .5s;
-        animation-fill-mode: forwards;
     }
 
     .straightOnBody {
